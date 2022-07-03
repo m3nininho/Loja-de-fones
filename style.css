@@ -1,0 +1,47 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  justify-items: start end;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin: 40px;
+}
+h1,
+a {
+  margin: 0px;
+}
+h1 {
+  line-height: 1;
+  font-size: 48px;
+}
+p {
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+}
+
+.preco {
+  background: #111;
+  padding: 5px 10px;
+  height: 20px;
+  width: 5px;
+  border-radius: 4px;
+}
+.descricao {
+  width: 10px;
+  /* height: 10px; */
+}
+.comprar {
+  place-items: start end;
+  background: rgb(123, 132, 185);
+  grid-column: 2;
+  border: 2px solid;
+  /* width: 500px; */
+  top: 50px;
+}
