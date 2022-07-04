@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 5px;
   place-items: center;
   justify-items: start end;
 }
@@ -27,21 +27,16 @@ img {
 }
 
 .preco {
-  background: #111;
+  background: #febe01;
   padding: 5px 10px;
-  height: 20px;
-  width: 5px;
   border-radius: 4px;
 }
-.descricao {
-  width: 10px;
-  /* height: 10px; */
-}
+
 .comprar {
-  place-items: start end;
-  background: rgb(123, 132, 185);
-  grid-column: 2;
-  border: 2px solid;
-  /* width: 500px; */
-  top: 50px;
+  display: inline-block;
+  background: #febe01;
+  color: #332200;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
 }
